@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color:rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 15px solid #0182fc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.3);
+}
+
+h2{
+    font-size: 30px;
+}
+
+input{
+    display: block;
+    width: 200px;
+    margin:auto;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    border: 1px solid #DDD;
+    outline: 0;
+    border-radius: 10px;
+}
+
+input:focus{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]{
+    background-color: #0182fc;
+    color: rgb(255, 255, 255);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(1, 100, 252);
+    color:  #fff;
+}
+
+a:visited, a:hover, a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/**
+a:visited, a:hover, a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.login h2{
+    color: rgb(24, 24, 24);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login p{
+    color: rgb(24, 24, 24);
+    margin-top: 4px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 10px solid rgb(1, 130, 252);
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    background-color: rgb(1, 130, 252);
+    color: #FFF;
+    border: none;
+}
+
+input{
+    width: 86%;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.login{
+    margin-top: 45px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+**/

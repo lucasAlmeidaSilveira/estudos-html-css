@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div><h1>Cadastro Social</h1></div>
+        
+        <div class="box_geral">
+            <div class="cabeçalho">
+                <h2>Preencha com suas informações pessoais</h2>
+            </div>
+
+            <div class="box">
+
+                <div class="row">
+                    <div class="flex_1">
+                        <label for="">Nome<br>
+                            <input type="text" name="nome" placeholder="Seu nome completo">
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="flex_1">
+                        <label for="">CPF<br>
+                            <input type="text" name="nome" placeholder="000.000.000-00">
+                        </label>
+                    </div>
+
+                    <div class="flex_1">
+                        <label for="">Data de Nascimento<br>
+                            <input type="text" name="nome" placeholder="__/__/____">
+                        </label>
+                    </div>
+
+                    <div class="flex_1">
+                        <label for="">Sexo<br></label>
+                        <label class="none" for="">
+                            <input type="radio" value="Masculino" name="sexo" checked>Masculino
+                        </label>
+                        <label class="none" for="">
+                            <input type="radio" value="Feminino" name="sexo">Feminino
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="flex_1">
+                        <label for="">Estado civil</label><br>
+                        <select name="Estado_civil" id="">
+                            <option value="casado">Casado(a)</option>
+                            <option value="solteiro">Solteiro(a)</option>
+                            <option value="divorciado">Divorciado(a)</option>
+                            <option value="viuvo">Viúvo(a)</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_1">
+                        <label for="">Renda Mensal<br>
+                            <input type="number" name="nome" placeholder="0,00">
+                        </label>
+                    </div>
+                </div>  
+    
+                <div><h2>Endereço</h2></div>
+                <hr>
+    
+                <div class="row">
+                    <div class="flex_2">
+                        <label for="">Logradouro<br>
+                            <input type="text" name="nome" placeholder="Logradouro">
+                        </label>
+                    </div>
+                    <div class="flex_1">
+                        <label for="">Número<br>
+                            <input type="number" name="nome" placeholder="Nº">
+                        </label>
+                    </div>
+                    <div class="flex_1">
+                        <label for="">Complemento<br>
+                            <input type="text" name="nome" placeholder="Complemento">
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="flex_1">
+                        <label for="">Estado:</label><br>
+                        <select name="Estado" id="">
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espírito Santo</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_1">
+                        <label for="">Cidade<br>
+                            <input type="text" name="nome" placeholder="Cidade">
+                        </label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="rodapé">
+                <input type="submit" value="Cadastrar">
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
